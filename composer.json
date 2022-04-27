@@ -1,0 +1,21 @@
+{
+    "name": "dgthanhduy/php-avatar",
+    "authors": [
+        {
+            "name": "Duong Thanh Duy",
+            "email": "hi@duongthanhduy.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"DgThanhDuy\\PHPAvatar\\": "src/"}
+    },
+    "require": {
+        "php-64bit": "^7.4",
+        "ext-mbstring": "^7.4",
+        "ext-gd": "^7.4",
+        "intervention/image": "^2.7"
+    }
+}
